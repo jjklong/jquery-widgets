@@ -16,7 +16,7 @@ $(function () {
     $('.modal_wrap').addClass('showing');   //use period when calling, but upon addClass, no period needed unless referring to the class ..showing in CSS
   });
 
-  $('.modal_close, .modal_wrap').on('click', function () {
+  $('.modal_close, .showing').on('click', function () {
     $('.modal_wrap').removeClass('showing');
     $('.btn1').text('wanna click again?');
   });
