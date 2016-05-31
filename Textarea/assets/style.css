@@ -1,0 +1,29 @@
+/****MAIN PAGE CONTENT*/
+html{
+  font: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  background-color: #aab772;
+}
+
+h1{
+  font-size: 6em;
+  color: navy;
+}
+
+.header{
+  padding: 2em;
+  margin: 3em auto;
+  width: 100%;
+  height: 20%;
+}
