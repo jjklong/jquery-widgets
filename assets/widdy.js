@@ -3,7 +3,7 @@
 //     console.log('All ready to go!');
 // });
 
-$(function (){
+$(function () {
   'use strict';
 });
 
@@ -11,7 +11,11 @@ $(function (){
 // $('.btn1').on('click', function(e) {alert("Yay!");});
 
 //CLICK CHANGES CLASS TO 'SHOW'
-$('.btn1').on('click', function(e) {
-  $(this).text('ur brave');
-  $('.modal_wrap').addClass('showing');   //use period when calling, but upon addClass, no period needed unless referring to the class ..showing in CSS
-});
+  $('.btn1').on('click', function () {
+    $(this).text('ur brave');
+    $('.modal_wrap').addClass('showing');   //use period when calling, but upon addClass, no period needed unless referring to the class ..showing in CSS
+  });
+
+  $('.modal_close, .modal_wrap').on('click', function () {
+    $('.modal_wrap, .modal').removeClass('showing');
+  });
