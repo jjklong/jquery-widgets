@@ -16,3 +16,17 @@ body{
   font-family: 'Oswald', sans-serif;
   background-color: #ef332d;
 }
+
+h1{
+  font-size: 5em;
+  padding: 1em;
+}
+
+form{
+  position: relative;
+  display: block;
+}
+
+input{
+  width: 10%;
+}
