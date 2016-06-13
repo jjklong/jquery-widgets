@@ -22,11 +22,16 @@ h1{
   padding: 1em;
 }
 
+.form_wrap{
+  display: inline-block;
+}
+
 form{
   position: relative;
   display: block;
 }
 
 input{
-  width: 10%;
+  border: none;
+  display: block;
 }
